@@ -1,0 +1,62 @@
+# .NET build artifacts
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+*.vssscc
+.builds
+*.dotCover
+
+# VS / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+**/.idea/
+**/.vs/
+**/.vscode/
+*.sln.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS specific
+.DS_Store
+Thumbs.db
